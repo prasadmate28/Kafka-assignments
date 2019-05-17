@@ -116,10 +116,10 @@ public class TwitterProducer {
     return producer;
     }
 
-    String consumerKey = "9IpNsmkrgbNABCFqcp1aYTSar";
-    String consumerSecret = "8WPTJmDYTBa2A2RQzGMPG0hZ1w8NcaGjV3Va2hfJDHvPkviZnO";
-    String token = "840952710711169024-W3wl3eDhpE7t7JDuWBDViqLmelL43PX";
-    String secret = "Nq3DXwyPoHUAif2vSPuIwv7CI7XlNmFEEQMTUbdeZC8GS";
+    String consumerKey = "";
+    String consumerSecret = "";
+    String token = "";
+    String secret = "";
     List<String> terms = Lists.newArrayList("kafka","politics","India","election","Modi","distributed","systems");
 
     public Client createTwitterClient(BlockingQueue<String> msgQueue){
